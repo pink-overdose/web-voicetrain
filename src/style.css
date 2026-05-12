@@ -1,0 +1,87 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.page {
+  width: 100%;
+  max-width: 680px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  padding: 1.25rem;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+.subtitle {
+  color: #334155;
+}
+
+.method-row {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.method-row select {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 0.35rem 0.5rem;
+  background: #fff;
+}
+
+.record-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  margin-left: 1rem;
+  background: #0ea5e9;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.record-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status {
+  margin-top: 1rem;
+}
+
+.player {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.card {
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  padding: 1rem;
+  background: #f8fafc;
+}
