@@ -52,7 +52,11 @@ Web app that records voice and returns basic DSP metrics:
 ## Next steps
 
 - Real-time analisis
-- Gendered objectives
+- Window audio in windows of 40-50 ms
+- Filter voiced segments (necessary, except for VOT) (is_voices of PitchResult (loqa crate))
+- graph pitch (+ range SD, once averaged on 5-10s if real-time)
+- graph H1-H2 as a function of time
+- Ability to set gendered objectives
 - Better local implementation of voice analysis
 - Add relevant gendered voice criteria
 - improve UI
